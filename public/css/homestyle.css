@@ -1,0 +1,40 @@
+body
+{
+    background-color: rgb(102, 200, 205);
+}
+
+body .main-container
+{
+    display: flex;
+    height: 45em;
+    justify-content: center;
+    background-color: rgb(245, 168, 245);
+    margin: 50px 100px 50px 100px;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+body .main-container .title-container
+{
+    height: 50%;
+    width: 70%;
+    display: grid;
+    justify-content: center;
+}
+
+body .main-container .title-container h1
+{
+    color: rgb(110, 5, 5);
+    margin-bottom: 0px;
+}
+body .main-container .title-container p
+{
+    margin-top: -10px;
+    color: rgb(110, 5, 5);
+}
+body .main-container .title-container .title-image
+{
+    border-radius: 20em;
+    height: 15em;
+    width: 15em;
+}
