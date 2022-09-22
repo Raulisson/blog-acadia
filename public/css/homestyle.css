@@ -1,40 +1,47 @@
 body
 {
-    background-color: rgb(102, 200, 205);
+    background-color: #352e7c;
 }
-
 body .main-container
 {
-    display: flex;
-    height: 45em;
-    justify-content: center;
-    background-color: rgb(245, 168, 245);
-    margin: 50px 100px 50px 100px;
+    height: 50em;
+    background-color: #e6b476;
+    margin: -10px 100px -10px 100px;
     padding-top: 2%;
-    border-radius: 10px;
 }
-
 body .main-container .title-container
 {
-    height: 50%;
-    width: 70%;
-    display: grid;
-    justify-content: center;
-}
-
-body .main-container .title-container h1
-{
-    color: rgb(110, 5, 5);
-    margin-bottom: 0px;
-}
-body .main-container .title-container p
-{
-    margin-top: -10px;
-    color: rgb(110, 5, 5);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 body .main-container .title-container .title-image
 {
-    border-radius: 20em;
     height: 15em;
     width: 15em;
+}
+body .main-container .title-container .fa-eye-slash
+{
+    visibility: hidden;
+}
+body .main-container .title-container .fa-circle-user
+{
+   margin-right: 20px;
+   font-size: 25px;
+}
+body .main-container .header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body .main-container .header h1
+{
+    font-size: 25px;
+}
+body .main-container .header .fa-hat-wizard
+{
+    font-size: 20px;
 }
