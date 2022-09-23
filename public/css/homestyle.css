@@ -26,22 +26,43 @@ body .main-container .title-container .fa-eye-slash
 {
     visibility: hidden;
 }
-body .main-container .title-container .fa-circle-user
+body .main-container .title-container a
 {
    margin-right: 20px;
+   margin-bottom: 214px;
    font-size: 25px;
+   color: black;
+}
+body .main-container .title-container a .fa-circle-user:hover
+{
+   background-color: #0d82ae;
+   border-radius: 15px;
 }
 body .main-container .header
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: url("/img/header.png");
+    padding: 10px 0px 10px 0px;
 }
-body .main-container .header h1
+body .main-container .header a
 {
     font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+body .main-container .header a:hover,
+body .main-container .header a:active
+{
+    background-color: #352e7c;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
 }
 body .main-container .header .fa-hat-wizard
 {
-    font-size: 20px;
+    font-size: 25px;
 }
+
